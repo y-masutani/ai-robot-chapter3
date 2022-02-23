@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'speech_synthesis = speech_synthesis_pkg.speech_synthesis:main'
+            'speech_synthesis = speech_synthesis_pkg.speech_synthesis:main',
+            'speech_synthesis2 = speech_synthesis_pkg.speech_synthesis2:main',
         ],
     },
 )
